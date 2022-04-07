@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login {
+  background-color: white;
+  height: 480px;
+  width: 348px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  align-content: flex-start;
+}
+
+img {
+  width: 100px;
+}
+
+.login__title {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+  color: rgb(105, 104, 104);
+}
+
+form {
+  text-align: center;
+  width: 300px;
+}
+
+input[type="text"] {
+  outline: none;
+  border: 0;
+  padding: 20px 15px;
+  width: 280px;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(184, 184, 184);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.login__form-inputs-text {
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.login__form-email {
+  margin: 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.login__form-password {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.button-entry {
+  font-size: 15px;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: rgb(14, 14, 90);
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.button-entry:hover {
+  background-color: rgb(80, 80, 200);
+  color: black;
+}
+
+.button-forget {
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid rgb(202, 202, 202);
+  margin-top: 20px;
+  padding: 4px 5px;
+  font-size: 12px;
+  width: 130px;
+  color: rgb(97, 97, 97);
+}
